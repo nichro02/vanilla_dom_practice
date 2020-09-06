@@ -15,3 +15,6 @@ console.log(intro)
 //Grab h2 element
 const h2 = document.querySelector("h2")
 console.log(h2)
+
+//Add exclamations to h2
+h2.innerText = h2.innerText+"!!!"
