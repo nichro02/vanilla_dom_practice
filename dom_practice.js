@@ -9,5 +9,9 @@
 //console.log(list)
 
 //Assign element with id to variable
-const intro = document.querySelector('#intro')
+const intro = document.querySelector("#intro")
 console.log(intro)
+
+//Grab h2 element
+const h2 = document.querySelector("h2")
+console.log(h2)

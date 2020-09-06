@@ -1,1 +1,0 @@
-![Image of DOM Tree Structure] (/DOM_Tree_Structure.jpg)
