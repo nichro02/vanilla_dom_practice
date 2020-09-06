@@ -1,1 +1,1 @@
-!(DOM_Tree_Structure.jpg)
+![Image of DOM Tree Structure] (/DOM_Tree_Structure.jpg)
