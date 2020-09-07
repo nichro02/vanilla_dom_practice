@@ -29,6 +29,16 @@ const listItems = document.querySelectorAll("li")
 console.log(listItems)
 listItems[2].style.color = "red"
 
+
+for (item in listItems) {
+    if(listItems[item].innerText === "Dairy Queen") {
+        listItems[item].style.color = "red"    
+    } else {
+        listItems[item].style.color = "blue"
+    }
+    
+}
+
 //Change innerText of an li element to "Jamboree sandwich at the Jambo-ree"
 listItems[0].innerText = "Jamboree sandwich at the Jambo-ree"
 
@@ -38,3 +48,8 @@ dq.setAttribute("src", "https://images.all-free-download.com/images/graphiclarge
 
 //Append image to page
 listItems[2].appendChild(dq)
+
+//Removing an element
+const footer = document.querySelector("footer")
+
+footer.remove()
