@@ -34,4 +34,7 @@ listItems[0].innerText = "Jamboree sandwich at the Jambo-ree"
 
 //Create new img element and add attribute
 const dq = document.createElement("img")
-dq.setAttribute("src", "https://p7.hiclipart.com/preview/459/39/779/5bb76fc44117c.jpg")
+dq.setAttribute("src", "https://images.all-free-download.com/images/graphiclarge/dairy_queen_logo2_28735.jpg")
+
+//Append image to page
+listItems[2].appendChild(dq)
