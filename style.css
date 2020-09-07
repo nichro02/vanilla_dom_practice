@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background: #eee2d2;
+    font-family: 'Cagliostro', sans-serif;
+}
+
+.header {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#park {
+    width: 70%;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dairyQueen {
+    width: 30%;
+}

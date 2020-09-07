@@ -29,25 +29,29 @@ const listItems = document.querySelectorAll("li")
 console.log(listItems)
 listItems[2].style.color = "red"
 
-
+//Tried to programatically assign colors but it broke my code. 
+/*
 for (item in listItems) {
-    if(listItems[item].innerText === "Dairy Queen") {
-        listItems[item].style.color = "red"    
+    if(listItems[item] === "Dairy Queen") {
+        listItems[item].style.color = "red"   
     } else {
         listItems[item].style.color = "blue"
-    }
-    
+    }  
 }
+*/
 
 //Change innerText of an li element to "Jamboree sandwich at the Jambo-ree"
 listItems[0].innerText = "Jamboree sandwich at the Jambo-ree"
 
 //Create new img element and add attribute
 const dq = document.createElement("img")
-dq.setAttribute("src", "https://images.all-free-download.com/images/graphiclarge/dairy_queen_logo2_28735.jpg")
+dq.setAttribute("src", "https://www.texomaliving.com/wp-content/uploads/2010/06/DQ.png")
+dq.id="dairyQueen"
 
+
+const ol = document.querySelector("ol")
 //Append image to page
-listItems[2].appendChild(dq)
+ol.appendChild(dq)
 
 //Removing an element
 const footer = document.querySelector("footer")
