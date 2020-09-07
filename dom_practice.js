@@ -18,3 +18,7 @@ console.log(h2)
 
 //Add exclamations to h2
 h2.innerText = h2.innerText+"!!!"
+
+//Assign elements with class to variable
+const header = document.querySelectorAll(".header")
+console.log(header)
