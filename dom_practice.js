@@ -20,5 +20,11 @@ console.log(h2)
 h2.innerText = h2.innerText+"!!!"
 
 //Assign elements with class to variable
+//Should return array because multiple elements have been assigned to class "header"
 const header = document.querySelectorAll(".header")
 console.log(header)
+
+//Change color of an li element
+const listItems = document.querySelectorAll("li")
+console.log(listItems)
+listItems[2].style.color = "red"
