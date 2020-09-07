@@ -28,3 +28,6 @@ console.log(header)
 const listItems = document.querySelectorAll("li")
 console.log(listItems)
 listItems[2].style.color = "red"
+
+//Change innerText of an li element to "Jamboree sandwich at the Jambo-ree"
+listItems[0].innerText = "Jamboree sandwich at the Jambo-ree"
